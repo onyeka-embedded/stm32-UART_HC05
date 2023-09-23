@@ -1,7 +1,7 @@
 #include "uart.h"
 
-#define PIN5								 (1U<<5)
-#define LED_PIN 							PIN5
+#define PIN5			(1U<<5)
+#define LED_PIN 		PIN5
 
 char rX;
 int main(void){

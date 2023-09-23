@@ -10,10 +10,10 @@
 #define SR_TXE				(1U<<7)
 #define SR_RXNE				(1U<<5)
 
-#define SYS_FREQ					16000000
-#define APB1_CLK					SYS_FREQ
+#define SYS_FREQ			16000000
+#define APB1_CLK			SYS_FREQ
 
-#define BAUDRATE				9600
+#define BAUDRATE			  9600
 
 static void uart_set_baudrate(USART_TypeDef *USARTx, uint32_t periphClk, uint32_t baudRate);
 //static uint16_t compute_uart_div(uint32_t periphClk, uint32_t baudRate);
